@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Chromium tests with custom reporter",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"test:chromium"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
